@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 Spree::LineItem.class_eval do
   def update_price
     currency_price = Spree::Price.where(
